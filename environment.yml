@@ -1,0 +1,9 @@
+name: api-test
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+      - starlite
+      - uvicorn
+      - tinydb
